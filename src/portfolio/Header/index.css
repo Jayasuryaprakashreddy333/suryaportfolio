@@ -130,3 +130,47 @@
     
     
 }
+
+
+@media screen and (min-width:1200px) {
+
+    .nav-container{
+            height:15vh; 
+            min-width:1200px;
+            background-image: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+            background-size: cover;
+            display:flex;
+            flex-direction:row; 
+            justify-content:center; 
+            align-items:center;
+            position: fixed;
+            width:100%;
+     }
+        
+        .container{
+            display:flex; 
+            flex-direction:row; 
+            justify-content:space-evenly;
+            align-items:center;
+            width:400px;
+        }
+        
+        .anchor{
+            display:flex; 
+            flex-direction: row;
+            justify-content: center;
+            align-items:center;
+            text-decoration: none;
+        }
+        
+        .para{
+            color:#eaecee; 
+            font-family:'Roboto'; 
+            font-size:15px;
+            font-weight:400;
+            margin-left:5px;
+        }
+        
+        
+    }
+    

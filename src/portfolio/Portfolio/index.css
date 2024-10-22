@@ -171,3 +171,61 @@
     }
     
 }
+
+
+@media screen and (min-width:1200px) {
+    .portfolio-container{
+        height:100vh; 
+        min-width:1200px;
+        background-color:#f2f3f4;
+        padding:10px;
+        overflow-y:scroll;
+    }
+    
+    .port-heading{
+        color:#000000;
+        font-family:"Roboto";
+        font-size:30px;
+        font-weight:bold
+    }
+    
+    .skills-para{
+        color:#000000;
+        font-family:"Roboto";
+        font-size:20px;
+    }
+    
+    .unorder-list{
+        list-style-type: none;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left:0px;
+    }
+    
+    .list-item{
+        background-color:#eaecee ;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        margin:20px;
+        height:150px;
+        width:350px;
+        border-radius:8px;
+    }
+    
+    .project-details{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        margin-left:10px;
+    }
+    
+    .list.para{
+        color:#000000;
+        font-family:'Roboto';
+        font-size:15px;
+    }
+    
+}

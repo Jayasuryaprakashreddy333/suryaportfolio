@@ -129,3 +129,46 @@
 }
 
 }
+
+@media screen and (min-width:1200px){
+
+    .home-container{
+        height:100vh;
+        min-width:1200px;
+        background-image: url("https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+        background-size:cover;
+        display:flex; 
+        flex-direction:row; 
+        justify-content:flex-start;
+        align-items: center;
+    }
+    
+    .details-container{
+        margin-left:30px;
+    }
+    
+    .home-heading{
+        color:#ffffff; 
+        font-family:'Roboto';
+        font-size:20px; 
+        font-weight:400;
+    }
+    
+    .span-element{
+        color:#ffffff; 
+        font-family:'Roboto';
+        font-size:30px; 
+        font-weight:bold;
+    }
+    
+    .home-para{
+        background-color: black;
+        color:#f1c27d; 
+        font-family:'Roboto';
+        font-size:12px; 
+        font-weight:300;
+        padding:10px;
+        width:220px;
+    }
+    
+    }

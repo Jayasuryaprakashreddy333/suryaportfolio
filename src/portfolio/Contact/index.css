@@ -87,3 +87,33 @@
     
     
 }
+
+
+
+@media screen and (min-width:1200px){
+    .contact-container{
+        background-color: #69a4b6;
+        height:200px;
+        min-width:1200px;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .social-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width:400px
+    }
+    
+    .contact-para{
+        color:#000000;
+        font-family:'Roboto';
+        font-size:18px;
+    }
+    
+    
+}

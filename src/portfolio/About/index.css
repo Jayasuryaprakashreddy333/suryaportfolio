@@ -253,3 +253,89 @@
     font-size:12px;
 }
 }
+
+
+
+@media  screen and (min-width:1200px){
+
+    .about-container{
+        height:100vh; 
+        min-width:1200px;
+        background-image: url("https://images.pexels.com/photos/1260727/pexels-photo-1260727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+        background-size:cover; 
+        padding-left:20px;
+        padding-top:10px;
+    }
+    
+    .about-heading{
+        color:#000000;
+        font-family:'Roboto';
+        font-size:25px;
+        font-weight:bold;
+    }
+    .profile-container{
+        display:flex; 
+        flex-direction:row;
+    }
+    
+    .profile-image{
+        height:100px;
+        width:100px;
+        margin-right:10px;
+    }
+    
+    .bio-contaiiner{
+        display:flex; 
+        flex-direction:column; 
+        justify-content:center;
+    }
+    
+    .profile-heading{
+        color:#000000;
+        font-family:'Roboto';
+        font-size:20px;
+        font-weight:bold;
+        margin:0px;
+    }
+    
+    .profile-para{
+        color:#000000;
+        font-family:'Roboto';
+        font-size:18px;
+        font-weight:bold;
+        margin-top:5px;
+        margin-bottom:0px;
+    }
+    
+    .chrono-container{
+        height:300px;
+        width:100%;
+        overflow-y: scroll;
+    }
+    
+    .chrono-card{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:300px;
+    }
+    
+    .chrono-title{
+        color:#000000;
+        font-family:'Roboto';
+        font-size:15px;
+        font-weight:bold;
+    }
+    
+    .chrono-image{
+        height:50px;
+        width:50px;
+    }
+    
+    .chrono-para{
+        color:#000000;
+        font-family:'Roboto';
+        font-size:12px;
+    }
+    }
